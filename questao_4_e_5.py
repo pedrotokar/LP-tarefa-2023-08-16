@@ -27,7 +27,6 @@ def questao_4():
 
 def questao_5():
     array_5, array_6 = questao_4()
-
     # A função np.hstack concatena as duas arrays horizontalmente
     array_7 = np.hstack((array_5, array_6))
     print(f"Sétima array: {array_7}")
@@ -50,5 +49,3 @@ def questao_5():
     ver_paridade_vetorizada = np.vectorize(ver_paridade)
     vetor_7 = ver_paridade_vetorizada(array_7)
     print(f"Sétima array modificada: {vetor_7}", end = "\n\n")
-
-questao_5()
